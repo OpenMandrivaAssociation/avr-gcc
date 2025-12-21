@@ -13,6 +13,7 @@ Source1:        ftp://ftp.gnu.org/gnu/gcc/gcc-%{version}/gcc-g++-%{version}.tar.
 
 
 BuildRoot:      %{_tmppath}/%{name}-buildroot
+BuildRequires:	make
 BuildRequires:  %{target}-binutils >= 2.13, zlib-devel gawk libgmp-devel libmpfr-devel 
 Requires:       %{target}-binutils >= 2.13
 #Requires:       avr-libc
